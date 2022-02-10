@@ -17,6 +17,10 @@
 .link {
   text-decoration: none;
 }
+.link-list {
+  text-decoration: none;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -41,19 +45,27 @@ body {
   color: var(--accent-color);
   font-size: 26px;
 }
+
+.site-nav-contacts {
+  display: flex;
+}
+.site-nav .link-list {
+  background-color: tomato;
+  margin-right: 50px;
+}
+.nav-s:last-child {
+  margin-right: 0;
+}
+
 .site-nav-contacts {
   list-style: none;
 }
-
 .nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-}
-.link-list {
-  text-decoration: none;
 }
 
 .part:active {
