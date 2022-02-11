@@ -46,20 +46,6 @@ body {
   font-size: 26px;
 }
 
-.site-nav-contacts {
-  display: flex;
-}
-.site-nav .link-list {
-  background-color: tomato;
-  margin-right: 50px;
-}
-.nav-s:last-child {
-  margin-right: 0;
-}
-
-.site-nav-contacts {
-  list-style: none;
-}
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -72,7 +58,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.link {
+.link-lists {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,8 +66,8 @@ body {
   color: #212121;
 }
 
-.link-list:hover,
-.link-list:focus {
+.link-lists:hover,
+.link-lists:focus {
   font-size: 14px;
   color: var(--accent-color);
 }
