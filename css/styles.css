@@ -46,7 +46,24 @@ body {
   font-size: 26px;
 }
 
-.nav {
+.container {
+  display: flex;
+}
+
+.site-nav-contacts {
+  display: flex;
+}
+
+.site-nav-contacts .navs {
+  background-color: #757575;
+  margin-right: 50px;
+}
+
+.site-nav-contacts .navs:last-child {
+  margin-right: 0;
+}
+
+.site-nav-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -66,8 +83,12 @@ body {
   color: #212121;
 }
 
-.link-lists:hover,
-.link-lists:focus {
+.site-nav-contacts .link-lists:hover {
+  font-size: 14px;
+  color: var(--accent-color);
+}
+
+.site-nav-contacts .link-lists:focus {
   font-size: 14px;
   color: var(--accent-color);
 }
@@ -76,6 +97,7 @@ body {
   color: var(--accent-color);
 }
 .list-contacts {
+  display: flex;
   list-style: none;
 }
 .list-contacts.list {
