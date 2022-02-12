@@ -70,11 +70,14 @@ img {
 
 .header {
   background-color: tomato;
+  padding-top: 34px;
+  padding-bottom: 34px;
 }
 
-.site-nav {
+/* .site-nav {
   display: flex;
-}
+  align-items: center;
+} */
 
 .container {
   width: 1200px;
@@ -93,7 +96,8 @@ img {
 .site-nav-contacts {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav {
@@ -103,8 +107,11 @@ img {
 }
 
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
-  align-items: center;
+  line-height: 31px;
 }
 
 .site-nav-contacts .navs {
@@ -120,6 +127,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  line-height: 16px;
 }
 
 .first {
