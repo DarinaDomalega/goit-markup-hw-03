@@ -50,6 +50,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -110,7 +112,6 @@ img {
 }
 
 .site-nav-contacts .navs {
-  background-color: #757575;
   margin-right: 50px;
 }
 
@@ -126,7 +127,11 @@ img {
 }
 
 .first {
-  margin-right: 50px;
+  margin-left: 330px;
+}
+
+.second {
+  margin-left: 50px;
 }
 
 .site-nav-contacts {
@@ -177,14 +182,15 @@ img {
 .contacts-header:focus {
   color: var(--accent-color);
 }
-.second-section {
-  position: absolute;
-  width: 1600px;
-  background: #2f303a;
-}
 
 .hero {
+  display: block;
   background-color: var(--bg-grey-color);
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1600px;
+  text-align: center;
+  padding: 200px 0;
 }
 .main-title {
   font-weight: 900;
@@ -194,18 +200,23 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .modal-button {
   font-weight: 700;
   font-size: 16px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid wheat;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  display: inline-block;
 }
 
 /* description section */
@@ -216,6 +227,32 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+}
+
+.description {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.description-list {
+  display: flex;
+}
+
+.description-list-item {
+  margin-right: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .description-text {
   font-size: 14px;
@@ -237,15 +274,50 @@ img {
   background-color: #f5f4fa;
   color: #212121;
 }
+
+.about-title {
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.about-list-photo {
+  display: flex;
+}
+
+.each-foto {
+  margin-right: 30px;
+  padding-bottom: 94px;
+}
+
 .team {
   background-color: var(--secondary-bg-color);
 }
 
+.title-secondary {
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .team-workers-list {
   background-color: #ffffff;
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
+
+.cards {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 3px;
+}
+
 .team-workers {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .list-name-worker {
@@ -256,6 +328,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .list-job {
@@ -266,11 +340,14 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
 }
 
 .footer {
   background-color: #2f303a;
   color: #ffffff;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .logo-footer {
   text-decoration: none;
@@ -291,6 +368,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
+
+.footer-address {
+  margin-top: 20px;
+}
+
+.links-each-adress {
+  display: block;
+  margin-bottom: 9px;
+}
+
 .address {
   font-family: Roboto;
   font-style: normal;
