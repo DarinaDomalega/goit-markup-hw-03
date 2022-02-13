@@ -66,6 +66,10 @@ img {
   color: #2196f3;
 }
 
+.logo-portfolio {
+  border: 1px solid #ececec;
+}
+
 .logo:hover {
   color: var(--accent-color);
   font-size: 26px;
@@ -242,6 +246,22 @@ img {
   margin-right: 30px;
 }
 
+.img-section {
+  padding: 20px 24px;
+  align-items: center;
+}
+
+.text-img {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -259,6 +279,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-top: 10px;
 }
 .about-title,
 .title-secondary {
@@ -427,16 +448,33 @@ img {
   color: var(--title-text-color);
 }
 
+.portfolio {
+  align-items: center;
+}
+
 .portfolio-list {
-  color: #ffffff;
-  background-color: var(--secondary-bg-color);
+  color: #212121;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
 }
 .portfolio-list-btn {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--secondary-bg-color);
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
 }
+
+.portfolio-filter-list {
+  align-items: center;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
 .filter-btn {
   font-family: Roboto;
   background-color: var(--secondary-bg-color);
@@ -449,6 +487,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 10px;
 }
 
 .filter-btn:hover,
@@ -469,6 +508,14 @@ img {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  margin-right: 30px;
+  width: 370px;
+  height: 404px;
+  margin-bottom: 30px;
+}
+
+.portfolio-list-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .portfolio-list-text {

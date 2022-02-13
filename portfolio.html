@@ -16,21 +16,27 @@
 <!-- Header and Nav-->
 <body >
     <header>
-        <nav class="site-nav">
-            <a href="" class="logo"> <span class="logo-part">Web</span>Studio</a>
-            <ul class="site-nav-contacts nav">
-                <li class="link list"><a href="./index.html" class="link-lists active">Студия</a></li>
-                <li class="link list"> <a href="./portfolio.html" class="link-lists active">Портфолио</a></li>
-                <li class="link list"> <a href="" class="link-lists active">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="list-contacts">
-            <li> <a class="contacts-header list" href="mail:info@devstudio.com"> info@devstudio.com</a> </li>
-            <li> <a class="contacts-header list" href="tel:+380961111111"> +38 096 111 11 11</a> </li>
-        </ul>
-    </header>
+        <header class="header logo-portfolio">
+            <div class="container header-container">
+                <nav class="site-nav">
+                    <a href="" class="logo"> <span class="logo-part">Web</span>Studio</a>
+                    <ul class="site-nav-contacts nav">
+                        <li class="link list navs"><a href="./index.html" class="link-lists  active">Студия</a></li>
+                        <li class="link list navs"><a href="./portfolio.html" class="link-lists active">Портфолио</a></li>
+                        <li class="link list navs"><a href="" class="link-lists  active">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="list-contacts-header">
+                    <li class="link list links first"><a class="contacts-header list" href="mail:info@devstudio.com">
+                            info@devstudio.com</a> </li>
+                    <li class="link list links second"><a class="contacts-header list" href="tel:+380961111111"> +38 096 111 11
+                            11</a> </li>
+                </ul>
+            </div>
+        </header>
     <main>
         <section class="portfolio">
+            <div class="container">
             <ul class="portfolio-filter-list list">
               <li class="portfolio-list-btn"><button type="button" class="filter-btn">Все</button></li>
               <li class="portfolio-list-btn"><button type="button" class="filter-btn">Веб-сайты</button></li>
@@ -40,53 +46,84 @@
             </ul>
             <ul class="portfolio-list list ">
                 <li class="portfolio-list-item"> 
-                <a href=""  class="portfolio-title" >Технокряк 
+                <a href="" class="portfolio-title">
                 <img src="./images/img11.jpg" alt="Первая ссылка" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Веб-сайт</p>
+                <div class="img-section">
+                  <h2 class="text-img">Техноряк</h2>
+                  <p class="portfolio-list-text"> Веб-сайт</p>
+                </div>
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span> 
+                <li class="portfolio-list-item"> </span> 
+                 <a href="" class="portfolio-title"> <span lang="en"></span>
                 <img src="./images/img-22.jpg" alt="Вторая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Дизайн</p>
+                
+                <div class="img-section">
+                    <h2 class="text-img"> Постер New Orlean vs Golden Star</h2>
+                    <p class="portfolio-list-text"> Дизайн</p>
+                </div>
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title">Ресторан <span lang="en">Seafood</span> 
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title"> <span lang="en"></span> 
                 <img src="./images/img-9.jpg" alt="Третья" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Приложение</p>
+                <div class="img-section">
+                    <h2 class="text-img">Ресторан Seafood</h2>
+                    <p class="portfolio-list-text"> Приложение</p>
+                </div>
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title">Проект <span lang="en">Prime</span> 
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title "> <span class="visually-hidden" lang="en">Prime</span> 
                 <img src="./images/img-33.jpg" alt="Четвертая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Маркетинг</p>
+                <div class="img-section">
+                    <h2 class="text-img">Проект Prime</h2>
+                    <p class="portfolio-list-text"> Маркетинг</p>
+                </div>
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title">Проект <span lang="en">Boxes</span> 
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title"><span lang="en" class="visually-hidden">Boxes</span> 
                 <img src="./images/img-4.jpg" alt="Пятая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Приложение</p>
+               <div class="img-section">
+                  <h2 class="text-img">Проект Boxes</h2>
+                  <p class="portfolio-list-text"> Приложение</p>
+               </div>
+                
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title"><span lang="en">Inspiration has no Borders</span> 
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title"><span lang="en" class="visually-hidden">Inspiration has no Borders</span> 
                 <img src="./images/img-5.jpg" alt="Шестая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Веб-сайт</p>
+                <div class="img-section">
+                    <h2 class="text-img">Inspiration has no Borders</h2>
+                    <p class="portfolio-list-text"> Веб-сайт</p>
+                </div>
                 </li>
                
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title">Издание <span lang="en">Limited Edition</span>
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title"><span lang="en" class="visually-hidden">Limited Edition</span>
                 <img src="./images/img-6.jpg" alt="Седьмая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Дизайн</p>
+                <div class="img-section">
+                    <h2 class="text-img">Inspiration has no Borders</h2>
+                    <p class="portfolio-list-text"> Дизайн</p>
+                </div>
+                
                  </li>
                 
-                 <li class="portfolio-list-item"> <a href="" class="portfolio-title">Проект <span lang="en">LAB</span> 
+                 <li class="portfolio-list-item"> <a href="" class="portfolio-title"><span lang="en" class="visually-hidden">LAB</span> 
                 <img src="./images/img-7.jpg" alt="Восьмая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Маркетинг</p>
+                <div class="img-section">
+                    <h2 class="text-img">Inspiration has no Borders</h2>
+                    <p class="portfolio-list-text"> Маркетинг</p>
+                </div>
                 </li>
-               
-                <li class="portfolio-list-item"> <a href="" class="portfolio-title"> <span lang="en">Growing Business</span> 
+                <li class="portfolio-list-item"> <a href="" class="portfolio-title"> <span lang="en" class="visually-hidden">Growing Business</span> 
                 <img src="./images/img-8.jpg" alt="Девятая" width="370" height="404"></a>
-                <p class="portfolio-list-text"> Приложение</p>
+                <div class="img-section">
+                    <h2 class="text-img">Inspiration has no Borders</h2>
+                    <p class="portfolio-list-text"> Приложение</p>
+                </div>
                 </li>
                 
 
             </ul>
+            </div>
         </section>    
     </main>
     <!-- Footer -->
