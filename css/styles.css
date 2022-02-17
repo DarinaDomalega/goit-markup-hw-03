@@ -380,17 +380,11 @@ img {
   color: #ffffff;
   padding-bottom: 60px;
   padding-top: 60px;
+  display: block;
 }
 
 .logo-footer {
-  margin-bottom: 20px;
-}
-
-.footer-address {
-  margin-top: 0;
-}
-
-.logo-footer {
+  display: inline-block;
   text-decoration: none;
   color: #ffffff;
   font-family: Raleway;
@@ -398,12 +392,13 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .logo-parts {
   color: #2196f3;
 }
 .address-list {
-  margin-top: 20px;
+  margin-top: 0px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
